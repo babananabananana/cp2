@@ -1,0 +1,78 @@
+
+.fullPage{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.header{
+  height: 300px;
+  width: 100%;
+}
+.header img{
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  object-position: 70%% 0;
+  border-radius: 3%;
+  box-shadow: 0 5px 5px 0 rgb(0,0,0,1);
+}
+.input{
+  box-shadow: 0 5px 5px 0 rgb(0,0,0,1);
+  border-radius: 10%;
+  padding: 20px;
+}
+
+#guessBoxBox {
+  display: none;
+  width: 80%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guessbox{
+  width: 30%;
+  text-align: center;
+  border: 2px solid #000000;
+  background-color: #ffff99;
+}
+
+.footer {
+  text-align: center;
+  height: 50px;
+}
+.footer img{
+  text-align: center;
+  height: 50px;
+  object-fit: contain;
+}
+
+#answerBox{
+  display: none;
+  justify-content: center;
+  width: 74%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#innerAnswerBox{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px solid #000000;
+}
+
+@media only screen and (max-width:460px){
+  /* .fullPage{
+    background-color: #ffff99;
+  } */
+  .guessbox{
+    width: 100%;
+  }
+  .header{
+    height: 25%;
+  }
+  #answerBox{
+    width: 80%;
+  }
+}
